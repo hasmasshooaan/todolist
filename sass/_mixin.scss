@@ -1,0 +1,6 @@
+//media query
+@mixin  mq($size) {
+    @media  (max-width: $size) {
+        @content;
+    }
+}
